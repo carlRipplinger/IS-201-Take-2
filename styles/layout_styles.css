@@ -1,0 +1,66 @@
+body {
+    background-color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-image: url('../Eliud_Kipchoge.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* optional – makes it stay still */
+}
+
+.common {
+    background-color: #ccc;
+    border: 2px solid white;
+    position: absolute;
+    z-index: 5;
+}
+
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    position: absolute;
+    z-index: 10; /* make header appear ABOVE the background */
+    background-color: #ccc; /* keep your original header color */
+}
+
+
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 2;
+    padding-top: 40px;
+}
+.mainbody{
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+
+}
+.rightmenu{
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+
+}
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.subheader{
+    float: right;
+}
